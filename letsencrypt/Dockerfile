@@ -8,6 +8,7 @@ ARG \
     CRYPTOGRAPHY_VERSION \
     CERTBOT_VERSION \
     CERTBOT_DNS_AZURE_VERSION \
+    CERTBOT_DNS_BUNNY_VERSION \
     CERTBOT_DNS_CLOUDNS_VERSION \
     CERTBOT_DNS_DESEC_VERSION \
     CERTBOT_DNS_DIRECTADMIN_VERSION \
@@ -55,6 +56,7 @@ RUN \
         cryptography==${CRYPTOGRAPHY_VERSION} \
         certbot==${CERTBOT_VERSION} \
         certbot-dns-azure==${CERTBOT_DNS_AZURE_VERSION} \
+        certbot-dns-bunny==${CERTBOT_DNS_BUNNY_VERSION} \
         certbot-dns-cloudflare==${CERTBOT_VERSION} \
         certbot-dns-cloudns==${CERTBOT_DNS_CLOUDNS_VERSION} \
         certbot-dns-desec==${CERTBOT_DNS_DESEC_VERSION} \
